@@ -1,0 +1,37 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Jupyter / notebook artifacts
+.ipynb_checkpoints/
+
+# Roboflow staging download (see download-roboflow-dataset.py)
+mahjong-1/
+dataset/_roboflow_download/
+
+# YOLO / training outputs
+runs/
+*.pt
+*.onnx
+*.engine
+*.tflite
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
