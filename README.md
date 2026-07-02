@@ -130,7 +130,3 @@ From a portfolio perspective, this project demonstrates:
 - benchmark accuracy across different Mahjong tile manufacturers
 - add quantitative metrics and sample predictions to the README
 - integrate the exported models directly into the production app pipeline
-
-## License
-
-This repository is presented as a portfolio project. Add your preferred license here if you plan to open-source the training code publicly.
